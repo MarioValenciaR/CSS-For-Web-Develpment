@@ -1,0 +1,130 @@
+/* 
+Author: Mario Valencia */
+body {
+    background-color: #DDD78D;
+    color: #333333;
+    font-family: sans-serif;
+}
+header, footer {
+    background-color: #60594D;
+    color: #93A29B;
+    border: 4px;
+    padding: 10px;
+    text-align: center;
+
+    border-color: #333333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+nav {
+    margin-top: 10px;
+}
+/* Reset the list style for the navigation */
+nav ul {
+    justify-content: center;
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    display: flex; /* Use flexbox to align items */
+}
+
+/* Style for the list items */
+nav ul li {
+    font-size: 12pt;
+    color: #333333;
+}
+
+/* Style for the navigation links to look like buttons */
+nav ul li a {   
+    display: inline-block;
+    padding: 5px 5px; /* Add padding to create button-like appearance */
+    text-decoration: none; /* Remove underline */
+    border: 2px solid #333333; /* Border with the Umber color */
+    border-radius: 15px; /* Rounded corners */
+    color: #60594D; /* Set text color */
+    background-color: #f4f4f4; /* Light background color to contrast with header */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
+}   
+/* Hover effect for links to change appearance */
+nav ul li a:hover {
+    background-color: #8B635C; /* Darken background on hover */
+    color: #f4f4f4; /* Lighten text color on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}
+
+
+.general {
+    font-size: 14pt;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.bold-text {
+    font-weight: bold;
+}
+
+.quoting{
+    background-color: #dcbf85;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#orderOfCascade-title{
+    font-weight: bold;   
+}
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2rem;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+
+
+/* Image styling */
+img {
+    float: right;
+    width: 25%;
+    margin: 10px;
+    max-height:fit-content;
+}
+
+footer a {
+    text-decoration: none; /* Remove underline from link */
+    color: #93A29B; /* Match footer text color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+footer a:hover {
+    color: #8B635C; /* Rose Taupe on hover */
+}
+
+.author-info {
+    font-size: 10pt;
+    font-style: italic;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.author-info {
+    font-size: 10pt;
+    font-style: italic;
+    margin-top: 20px;
+}
